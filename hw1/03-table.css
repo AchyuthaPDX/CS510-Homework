@@ -4,3 +4,19 @@
 */
 
 /* Add your code here */
+table{
+    text-align: center;
+    border: 1px solid black;
+}
+th,td{
+padding: 8px;
+text-align: center;
+border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: teal;
+    color: white;
+  }
+  td:hover{
+    background-color: rgb(88, 209, 209);
+  }

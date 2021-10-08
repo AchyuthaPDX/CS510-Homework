@@ -1,1 +1,28 @@
-/* Add your code here */
+.one{
+    display : flex;
+    flex-wrap: wrap ;
+}
+#gray{
+    filter: grayscale(100%);
+}
+#blur{
+    filter: blur(5px);
+}
+#invert{
+    filter: invert(100%);
+}
+#bright{
+    filter: brightness(200%);
+}
+#saturation{
+    filter: saturate(8);
+}
+#sepia{
+    filter: sepia(100%);
+}
+#various{
+    filter: sepia(100%);
+    filter: saturate(8);
+    filter: blur(5px);
+}
+
