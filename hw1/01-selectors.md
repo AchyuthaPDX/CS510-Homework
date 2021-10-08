@@ -3,32 +3,32 @@
 1. plate
 2. bento
 3. #fancy
-4.
-5.
-6.
-7.
-8.
-9.
-10.
-11.
-12.
-13.
-14.
-15.
-16.
-17.
-18.
-19.
-20.
-21.
-22.
-23.
-24.
-25.
-26.
-27.
-28.
-29.
-30.
-31.
-32.
+4. plate apple
+5. #fancy pickle
+6. .small
+7. orange.small
+8. bento orange.small
+9. plate,bento
+10. *
+11. plate *
+12. plate+apple
+13. bento ~ pickle
+14. plate>apple
+15. orange:first-child
+16. plate : only-child
+17. .small : last-child
+18. plate:nth-child(3)
+19. bento:nth-last-child(3)
+20. apple:first-of-type
+21. :nth-of_type(even)
+22. :nth-of_type(2n+3)
+23. plate apple:only-of-type
+24. apple:last-of-type, orange:last-of-type
+25. bento:empty
+26. apple:not(.small)
+27. apple[for], plate[for], bento[for]
+28. plate[for]
+29. bento[for=Vitaly]
+30. plate[for^=Sa],bento[for^=Sa]
+31. bento[for$=ato],plate[for$=ato]
+32. bento[for*=obb]
