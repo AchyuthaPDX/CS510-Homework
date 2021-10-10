@@ -9,7 +9,38 @@
     <link rel="stylesheet" href="04-form.css" />
   </head>
   <body>
-    <!-- 04 - Form Exercise -->
-    <!-- Add your code below -->
+   <div class="container">
+    <header>
+    <h1> INTRO SURVEY </h1></header>
+    <form>
+      
+      <label for="name">Name</label><span id="req">(required)</span><br>
+      <input type="text" id="name" name="name" required><br><br>
+      <label for="mail">Email</label><span id="req">(required)</span><br>
+      <input type="email" id="mail" name="mail" required><br><br>
+      <label for="status"> Registration Status: </label><br>
+      <nav>
+      <select name="status" id="status">
+        <option disabled="null" selected="null">Choose an option</option>
+        <option value="Web Register">Web Register</option>
+        <option value="Waitlist">Waitlist</option>
+        <option value="Drop-Delete">Drop - Delete</option>
+      </select></nav><br><br>
+      
+      <label for="sec" id = "sec" name="sec">Class section</label><br>
+        <input type="radio" id="sec" >CS 410P </input>
+        <input type="radio" id="sec" >CS 510 </input></legend><br><br>
+      <label for="pre" id = "pre">Have you taken any of the following courses?</label><br>
+        <input type="checkbox" id="pre">Programming Languages </input><br>
+        <input type="checkbox" id="pre">Operating Systems </input><br>
+        <input type="checkbox" id="pre">Full Stack Web Development</input><br><br>
+      <label for="Others">Anything else?</label><br>
+        <textarea type="textarea" id="Others"></textarea><br><br>
+      
+        <button type="submit" id="btn">SUBMIT</button>
+     
+        <button type="reset" id="resetbtn">RESET</button>
+    </form>
+   </div>
   </body>
 </html>

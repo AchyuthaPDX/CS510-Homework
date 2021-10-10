@@ -1,1 +1,54 @@
 /* Add your code here */
+body{
+    background-color: royalblue;
+}
+.container {
+    align-content: center;
+    display: inline-block;
+    width: 480px;
+    clear: both;
+    background-color: white;
+    border-radius: 6px;
+  }
+label{
+    font-weight: bold ;
+}
+input{
+    accent-color: #0173a0
+}
+#btn{
+    background-color:royalblue;
+    color:white;
+    width: auto;
+}
+
+    form {
+        width: 100%;
+        padding: 20px;
+        
+}
+textarea, #name , #mail, select{
+    width: 420px;
+    padding: 5px;
+    }
+#btn{
+    background-color: rgb(33, 62, 150);
+    color: white;
+    size: 20px;
+    width: 210px;
+    height: 30px;
+    align-self: start;
+}
+#resetbtn{
+    border-color: rgb(33, 62, 150);
+    color:rgb(33, 62, 150);
+    size: 20px;
+    width: 210px;
+    height: 30px;
+    align-self: start;
+}
+h1{
+    color:rgb(33, 62, 150);
+    text-align: center;
+}
+span{color:rgb(33, 62, 150);}

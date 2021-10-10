@@ -7,6 +7,7 @@
 table{
     text-align: center;
     border: 1px solid black;
+    border-collapse: collapse;
 }
 th,td{
 padding: 8px;
@@ -16,7 +17,7 @@ border-bottom: 1px solid #ddd;
 th {
     background-color: teal;
     color: white;
-  }
-  td:hover{
-    background-color: rgb(88, 209, 209);
-  }
+}
+tr:hover {
+  background-color: #D6EEEE;
+}
