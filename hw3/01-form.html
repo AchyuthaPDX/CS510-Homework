@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>JavaScript Form Exercise</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <script defer src="01-form.js"></script>
+    <link rel="stylesheet" href="../hw1/04-form.css" />
+  </head>
+  <body>
+    <div class="container">
+    <main>
+      <h1>Contact Form</h1>
+      <form action="01-form.js" class="form">
+        <label for="name">Name</label><span id="req">(required)</span><br>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="mail">Email</label><span id="req">(required)</span><br>
+        <input type="email" id="mail" name="mail" required><br><br>
+        <label for="status"> Registration Status: </label><br>
+        <nav>
+        <select name="status" id="status">
+          <option disabled="null" selected="null">Choose an option</option>
+          <option value="Web Register">Web Register</option>
+          <option value="Waitlist">Waitlist</option>
+          <option value="Drop-Delete">Drop - Delete</option>
+        </select></nav><br><br>
+        
+        <label for="sec" id = "sec" name="sec">Class section</label><br>
+          <input type="radio" name="sec" id="ug" >CS 410P </input>
+          <input type="radio" name ="sec" id="pg" >CS 510 </input></legend><br><br>
+        <label for="pre" name = "pre" id = "pre">Have you taken any of the following courses?</label><br>
+          <input type="checkbox" name = "pre" id="pre1">Programming Languages </input><br>
+          <input type="checkbox" name = "pre" id="pre2">Operating Systems </input><br>
+          <input type="checkbox" name = "pre" id="pre3">Full Stack Web Development</input><br><br>
+        <label for="Others">Anything else?</label><br>
+          <textarea type="textarea" id="Others"></textarea><br><br>
+        
+          <button type="submit" id="btn">SUBMIT</button>
+       
+          <button type="reset" id="resetbtn">RESET</button>
+        <!-- Step 2 - Address any responsiveness and/or accessibility issues -->
+      </form>
+    </main>
+    </div>
+  </body>
+</html>
