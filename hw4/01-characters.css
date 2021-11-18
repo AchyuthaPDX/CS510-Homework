@@ -1,0 +1,35 @@
+body {
+  background-color: var(--cyan);
+}
+
+h1 {
+  text-align: center;
+}
+
+.characters {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+#inside{
+  font-weight:bold;
+  color: black;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+#ids{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+#inside:hover{
+  background-color: rgb(1, 99, 99);
+}
+#name{
+  font-size: 20px;
+}
+#title{
+  font-size: 15px;
+}
